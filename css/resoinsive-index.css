@@ -1,0 +1,17 @@
+@media (min-width: 768px) and (max-width :991px){
+	#banner-part{
+        background-attachment: fixed;
+	}
+}
+@media (min-width: 576px) and (max-width :767px){
+	#banner-part{
+		
+        
+	}
+}
+@media (min-width: 320px) and (max-width :575px){
+	#banner-part{
+		background-attachment: fixed;
+       
+	}
+}

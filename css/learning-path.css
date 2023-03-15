@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------header part Start-------------- */
+.navbar-brand img{
+    height:60px; 
+}
+nav{
+    background: #ffffff !important;
+    padding: 0px !important;
+}
+nav ul li a{
+	font-size: 16px;
+	color: #ab0d0d !important;
+    margin-left: 20px; 
+}
+nav ul li a:hover{
+    color: #6042e6 !important;
+    
+}
+.sing-up button{
+    border: none;
+    background: none;
+}
+.sing-up button a{
+    background: #6042e6;
+    padding: 12px 20px;
+    color: #ffffff !important;
+    border-radius:25px;
+ }
+ .sing-up button a:hover{
+    color: #ffffff !important;
+ } 
+ .drop-down ul li a{
+    margin-left: 0px !important;
+ }
+/* -------------header part End-------------- */
+
+/* -------------Start Learning Path------------*/
+.learning-path .header{
+    padding: 70px 10px 35px 10px;
+}
+.learning-path .header h1{
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #24263b;
+}
+.learning-path .header p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #433c38;
+}
+.learning-path .item{
+    border: 1px solid #e8e4e4; 
+    border-radius: 10px;
+    padding: 20px 18px;  
+    margin-bottom: 40px;
+}
+.learning-path .item h5{
+    padding: px 0px;
+    font-size: 20px;
+    color: #212338;
+}
+.learning-path .item p{
+    font-size: 15px;
+    color: #88888a;
+}
+.learning-path .item .button a{
+    padding: 10px 18px;
+    background: #1e8bff;
+    color: #fff;
+    border-radius: 20px;
+    transform: .4s;
+    margin-top: 15px 0px;
+}
+.learning-path .item .button a:hover{
+    background-color: #0d71dc;
+}
+
+/* --------------End Learning Path------------ */
+
+
+/* -------------Footer-part Start------------- */
+
+.footer_part{
+    background:#221e52;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.footer_part .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_part .footer .footer_contactpart .footer_logo img{
+    height: 100px;
+    margin-bottom: 30px;
+}
+.footer_part .footer .footer_contactpart{
+    width: 35%;
+}
+.footer_part .footer .footer_contactpart .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer_part .footer_contactpart .contact .contact-icon i{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	background: #5bc5f4;
+	color: #fff;
+}
+.footer_part .footer_contactpart .contact .contact-text{
+	width: 80%;
+	color: #f1f1f1;
+	margin-left: 10px;
+	margin-top: 15px;
+	
+}
+.footer_part .footer_contactpart .contact .contact-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+    color: #ffffff;
+}
+.footer_part .footer .footer_linkspart{
+    width:25%;
+}
+.footer_part .footer .footer_linkspart h1{
+   font-size: 30px;
+   margin: 15px 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color: #fff;
+}
+.footer_part .footer .footer_linkspart ul li{
+    font-size: 16px;
+    padding: 8px 0px;
+	color: #ffffff;
+	transition: .4s;
+ }
+ .footer_part .footer .footer_linkspart ul li:hover{
+	margin-left: 10px;
+	color:#5bc5f4;
+ }
+.footer_part .footer .footer_aboutpart{
+    width:  40%;
+}
+.footer_part .footer_aboutpart .links .footer_aboutpart-icon i{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 13px;
+    font-size: 30px;
+    color: #61c5f0;
+    margin-top: 30px;
+}
+.footer_part .footer_aboutpart .links h1{
+    font-size: 30px;
+    padding: 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+/*----------------- End Footer Part ---------*/
+
+
+/*----------Start Copyright Part------------*/
+#copyright{
+    background: #1a2142;
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+#copyright .copyright_part{
+	display: flex;
+	justify-content: center;
+}
+#copyright .copyright_part .text{
+	margin-top: 10px;
+}
+#copyright p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+}
+/*-------------End Copyright Part-------------*/
